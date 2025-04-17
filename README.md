@@ -46,8 +46,9 @@ pip install -r requirements.txt
 
 In order for the preprocessing feature (`-pp` flag), to work please ensure that the image is well-lit and that the edges of the receipt are clearly visible and detectable within the image as seen in the example bellow.
 
-<img src="assets/easy_test2.jpeg" alt="Receipt Example" width="300"/>
+<img src="assets/in_ex.jpeg" alt="Receipt Example" width="300"/>
 
+Note that if the edges can't be seen in the image the project will crash with the preprocessing turned on but it should still work well without the processing activated.
 
 The preprocessing will:
 1. Detect the receipt edges in the image
@@ -55,6 +56,10 @@ The preprocessing will:
 3. Then perform OCR on the corrected image
 
 This is especially useful for receipts photographed at an angle.
+
+## Output Example
+
+<img src="assets/out_ex.png" alt="Receipt Example" width="400"/>
 
 ## Usage
 
