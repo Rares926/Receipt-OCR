@@ -92,3 +92,7 @@ python src/receipt_ocr.py -img path/to/receipt/image.jpg -pp -v -log path/to/log
 The script generates timestamped log files (log_YYYYMMDD_HHMMSS.txt) containing:
 1. Input image path
 2. OCR results
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
